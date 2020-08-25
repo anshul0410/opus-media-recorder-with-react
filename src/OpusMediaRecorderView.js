@@ -1,6 +1,7 @@
 import { Component } from 'react';
 import PropTypes from 'prop-types';
 import MediaRecorder from 'opus-media-recorder';
+import hark from 'hark';
 
 // opus-media-recorder options
 const workerOptions = {
